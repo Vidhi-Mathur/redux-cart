@@ -9,7 +9,7 @@ export default function Cart(props) {
       <h2>Your Shopping Cart</h2>
       <ul>{
           items.map(item => (
-            <CartItem key={item.id} item={{ id: item.id, title: item.title, quantity: item.quantity, total: item.totalPrice, price: item.price }} />
+            <CartItem key={item.id} item={{ id: item.id, title: item.title, quantity: item.quantity, totalPrice: item.totalPrice, price: item.price }} />
           ))
       }</ul>
     </Card>

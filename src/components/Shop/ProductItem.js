@@ -10,7 +10,7 @@ export default function ProductItem(props) {
         dispatch(cartActions.addToCart([
             id, 
             title,
-            price,
+            price
         ]))
     }
     return (
